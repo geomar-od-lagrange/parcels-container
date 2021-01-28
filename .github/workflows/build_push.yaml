@@ -31,6 +31,5 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          repository: willirath/parcels-container
-          tag: latest
+          tag: willirath/parcels-container:latest
           push: ${{ startsWith(github.ref, 'refs/heads/main')}}
