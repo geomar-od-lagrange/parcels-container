@@ -5,7 +5,7 @@ ENV JUPYTER_ENABLE_LAB=true
 
 # Install conda env from file
 COPY environment.yml /tmp/
-RUN conda install --yes --update-deps --file /tmp/environment.yml && \
+RUN conda env update --yes --update-deps --file /tmp/environment.yml && \
     # Build Jupyterlab extensions
     jupyter labextension install -y --clean --no-build \
     jupyterlab-jupytext dask-labextension && \
