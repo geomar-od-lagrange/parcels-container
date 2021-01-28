@@ -1,0 +1,15 @@
+name: parcels
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - cartopy
+  - dask
+  - distributed
+  - ffmpeg
+  - netCDF4
+  - openblas
+  - papermill
+  - parcels=2.2.1
+  - xarray
