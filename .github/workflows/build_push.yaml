@@ -33,5 +33,5 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          tags: quay.io/willirath/parcels-container:latest
+          tags: quay.io/willirath/parcels-container:latest, quay.io/willirath/parcels-container:$( date -u '+%Y.%m.%d' )
           push: ${{ startsWith(github.ref, 'refs/heads/main')}}
