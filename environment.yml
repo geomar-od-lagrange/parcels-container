@@ -5,11 +5,19 @@ channels:
 dependencies:
   - python=3.6
   - cartopy
+  - cftime
+  - cmocean
   - dask
   - distributed
   - ffmpeg
+  - ipykernel
   - netCDF4
   - openblas
   - papermill
-  - parcels=2.2.1
+  - parcels=2.2.2
+  - pip
+  - scikit-learn
+  - scipy
+  - seaborn
   - xarray
+  - xhistogram
