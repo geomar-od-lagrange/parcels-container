@@ -7,7 +7,7 @@ dependencies:
   - cartopy
   - cftime
   - cmocean
-  - dask
+  - dask=2021.02.0
   - distributed
   - ffmpeg
   - ipykernel
