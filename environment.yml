@@ -4,21 +4,40 @@ channels:
   - defaults
 dependencies:
   - python=3.8
+  - basemap
+  - bottleneck
   - cartopy
   - cftime
   - cmocean
+  - curl
+  - dask
   - dask=2021.02.0
+  - datashader
   - distributed
   - ffmpeg
+  - geopandas
+  - geoviews
+  - gsw
+  - h5netcdf
+  - h5py
+  - holoviews
+  - hvplot
   - ipykernel
-  - netCDF4
+  - matplotlib
+  - netcdf4
+  - numcodecs
+  - numpy
   - openblas
+  - pandas
   - papermill
   - parcels=2.2.2
   - pip
+  - python-blosc
   - scikit-learn
   - scipy
   - seaborn
+  - seawater
+  - sparse
   - xarray
   - xhistogram
   - zarr
