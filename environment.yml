@@ -11,7 +11,7 @@ dependencies:
   - cmocean
   - curl
   - dask
-  - dask=2021.02.0
+  - dask
   - datashader
   - distributed
   - ffmpeg
@@ -41,3 +41,5 @@ dependencies:
   - xarray
   - xhistogram
   - zarr
+  - pip:
+    - git+https://git.geomar.de/python/xorca_brokenline.git@v1.2.0
