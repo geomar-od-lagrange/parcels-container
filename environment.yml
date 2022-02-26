@@ -41,3 +41,5 @@ dependencies:
   - xarray
   - xhistogram
   - zarr
+  - pip:
+    - git+https://git.geomar.de/python/xorca_brokenline.git@v1.2.0
