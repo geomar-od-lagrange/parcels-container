@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.8
+  - python=3
   - basemap
   - bottleneck
   - cartopy
@@ -11,7 +11,7 @@ dependencies:
   - cmocean
   - curl
   - dask
-  - dask=2021.02.0
+  - dask=2022.6.1
   - datashader
   - distributed
   - ffmpeg
@@ -32,7 +32,7 @@ dependencies:
   - openblas
   - pandas
   - papermill
-  - parcels=2.2.2
+  - parcels=2.3.1
   - pip
   - python-blosc
   - scikit-learn
