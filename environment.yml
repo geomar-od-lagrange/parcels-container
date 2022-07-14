@@ -40,4 +40,5 @@ dependencies:
   - sparse
   - xarray
   - xhistogram
+  - xoak
   - zarr
