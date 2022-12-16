@@ -11,7 +11,7 @@ dependencies:
   - cmocean
   - curl
   - dask
-  - dask=2022.6.1
+  - dask=2022.12.0
   - datashader
   - distributed
   - ffmpeg
@@ -32,7 +32,7 @@ dependencies:
   - openblas
   - pandas
   - papermill
-  - parcels=2.3.1
+  - parcels=2.4.0
   - pip
   - python-blosc
   - scikit-learn
