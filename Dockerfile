@@ -24,4 +24,7 @@ RUN mamba env update --name parcels --file /tmp/environment.yml && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
 
+# clean up home dir
+RUN rm -rf $HOME/*
+
 USER $NB_USER
