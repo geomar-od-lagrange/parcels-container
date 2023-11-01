@@ -45,4 +45,4 @@ dependencies:
   - xoak
   - zarr
   - pip:
-    dask-labextension
+    - dask-labextension
