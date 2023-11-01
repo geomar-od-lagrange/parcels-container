@@ -1,4 +1,4 @@
-FROM jupyter/base-notebook:latest
+FROM jupyter/base-notebook:2023-08-28
 
 # user JLab
 ENV JUPYTER_ENABLE_LAB=true
