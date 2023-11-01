@@ -9,10 +9,6 @@ USER root
 COPY environment.yml /tmp/
 COPY fix_conda_env_ipykernel_install.py /tmp/
 RUN mamba env update --name parcels --file /tmp/environment.yml && \
-    # Build Jupyterlab extensions
-    jupyter labextension install -y --clean --no-build \
-    jupyterlab-jupytext dask-labextension && \
-    jupyter lab build && \
     # clean conda cache, index and package tarballs
     conda clean -a && \
     # install kernel
@@ -23,16 +19,11 @@ RUN mamba env update --name parcels --file /tmp/environment.yml && \
     # fix file permissions
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER && \
-    rm -f /tmp/environment.yml
+    rm -f /tmp/environment.yml /tmp/fix_conda_env_ipykernel_install.py
 
 # update base env from file
 COPY environment_base.yml /tmp/
-COPY fix_conda_env_ipykernel_install.py /tmp/
 RUN mamba env update --name base --file /tmp/environment_base.yml && \
-    # Build Jupyterlab extensions
-    jupyter labextension install -y --clean --no-build \
-    jupyterlab-jupytext dask-labextension && \
-    jupyter lab build && \
     # clean conda cache, index and package tarballs
     conda clean -a && \
     # install kernel

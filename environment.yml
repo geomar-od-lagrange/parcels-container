@@ -44,3 +44,5 @@ dependencies:
   - xhistogram
   - xoak
   - zarr
+  - pip:
+    dask-labextension
