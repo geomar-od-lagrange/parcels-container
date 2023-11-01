@@ -1,0 +1,10 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - curl
+  - ffmpeg
+  - git
+  - git-lfs
+  - netcdf4
