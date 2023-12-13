@@ -27,6 +27,7 @@ dependencies:
   - ipykernel
   - matplotlib
   - netcdf4
+  - neutralocean
   - numcodecs
   - numpy
   - openblas
