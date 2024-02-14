@@ -35,6 +35,7 @@ dependencies:
   - papermill
   - parcels=2.4.2
   - pip
+  - pys2index
   - python-blosc
   - scikit-learn
   - scipy
