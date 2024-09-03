@@ -37,6 +37,7 @@ dependencies:
   - pip
   - pys2index
   - python-blosc
+  - rasterio
   - regionmask
   - scikit-learn
   - scipy
