@@ -37,6 +37,8 @@ dependencies:
   - pip
   - pys2index
   - python-blosc
+  - rasterio
+  - regionmask
   - scikit-learn
   - scipy
   - seaborn
@@ -48,3 +50,4 @@ dependencies:
   - zarr
   - pip:
     - dask-labextension
+    - git+https://github.com/willirath/hextraj.git@2023.2.20.1
