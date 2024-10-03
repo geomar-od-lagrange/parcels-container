@@ -44,10 +44,12 @@ dependencies:
   - seaborn
   - seawater
   - sparse
+  - unzip
   - xarray
   - xhistogram
   - xoak
   - zarr
+  - zip
   - pip:
     - dask-labextension
     - git+https://github.com/willirath/hextraj.git@2023.2.20.1
