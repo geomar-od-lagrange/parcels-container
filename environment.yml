@@ -25,6 +25,7 @@ dependencies:
   - holoviews
   - hvplot
   - ipykernel
+  - jupyter-archive
   - matplotlib
   - netcdf4
   - neutralocean
