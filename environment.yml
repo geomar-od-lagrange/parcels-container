@@ -34,7 +34,7 @@ dependencies:
   - openblas
   - pandas
   - papermill
-  - parcels=3.0.4
+  - parcels=3.0.6
   - pip
   - pys2index
   - python-blosc
