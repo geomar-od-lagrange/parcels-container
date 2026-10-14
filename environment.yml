@@ -1,7 +1,6 @@
 name: parcels
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3
   - basemap
@@ -10,7 +9,6 @@ dependencies:
   - cftime
   - cmocean
   - curl
-  - dask
   - dask
   - datashader
   - distributed
@@ -52,6 +50,13 @@ dependencies:
   - xoak
   - zarr
   - zip
+  # security floors (the base image already satisfies these; keep the solver from downgrading)
+  - jupyterlab>=4.5.11
+  - notebook>=7.5
+  - jupyter_server>=2.21.1
+  - jupyter-server-proxy>=4.6.0
+  - nbconvert>=7.17.2
+  - tornado>=6.5.10
   - pip:
     - dask-labextension
     - git+https://github.com/willirath/hextraj.git@2023.2.20.1

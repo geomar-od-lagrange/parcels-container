@@ -1,4 +1,4 @@
-FROM quay.io/jupyter/base-notebook:2024-10-02
+FROM quay.io/jupyter/base-notebook:2026-10-12
 
 # user JLab
 ENV JUPYTER_ENABLE_LAB=true
